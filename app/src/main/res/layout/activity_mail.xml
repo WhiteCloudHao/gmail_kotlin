@@ -2,22 +2,23 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listview"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:backgroundTint="#FFFFFF"
     android:paddingLeft="16dp"
     android:paddingTop="16dp"
     android:paddingRight="16dp"
-    android:paddingBottom="16dp"
-    android:id="@+id/listview"
-    >
+    android:paddingBottom="16dp">
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:text="T"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView2" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#1CD38A"
+        android:text="T"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView2"
@@ -47,7 +48,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/searchButton"
+        android:id="@+id/starButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="?android:selectableItemBackground"
